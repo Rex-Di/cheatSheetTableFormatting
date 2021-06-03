@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica;
+    background-color: rgb(245, 245, 245);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(131, 78, 9, 0.493);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(243, 243, 243);
+    border: 1px solid black;
+    border-collapse: collapse;
+    outline-offset: 2px;
+}
+
+thead {
+    text-align: left;
+    background-color: burlywood;
+}
+
+tbody th {
+    background-color: white;
+    font-weight:normal;
+    background-clip: content-box;
+    text-align: center;
+    padding: 5px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+}
